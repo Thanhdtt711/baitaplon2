@@ -1,0 +1,48 @@
+.categories{
+    .categories__banner{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .categories__item{
+        margin: 30px 0;
+        h2{
+            margin-bottom: 20px;
+            .view-all{
+                font-size: 1rem;
+                color: #fff;
+            }
+        }
+
+        .categories__item--list{
+            .categories--item{
+                position: relative;
+                text-align: center;
+                a{
+                    display: block;
+                    color: #fff;
+                }
+                h3{
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0;
+                    right: 0;
+                    z-index: 1;
+                    font-size: 1.3rem;
+                }
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0, 0, 0, 0.287);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #460249;
+  color: #fff;
+  padding: 20px 0;
+
+  .player__song-info {
+    a {
+      color: #fff;
+      &:first-child{
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+      &:last-child{
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+    img {
+      max-width: 20%;
+      height: auto;
+    }
+
+    span {
+      a {
+        display: block;
+      }
+    }
+  }
+
+  .play-button{
+    cursor: pointer;
+  }
+
+  .volume-button{
+    @extend .play-button;
+  }
+}

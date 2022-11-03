@@ -1,0 +1,82 @@
+@keyframes playlistRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(120deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.playlist{
+    padding: 30px 0;
+    .playlist__image{
+        img{
+            border-radius: 10px;
+            width: 100%;
+            transition: border-radius 0.4s linear;
+
+            &.playing{
+              
+                border-radius: 50%;
+                animation: playlistRotate 3s linear infinite both;
+            }
+            &.playend{
+                border-radius: 50%;
+                transform: rotate(0deg);
+                animation: playlistRotate 1s linear both;
+            }
+        }
+    }
+
+    .playlist__info{
+        text-align: center;
+        margin: 10px 0;
+        a{
+            color: #fff;
+        }
+    }
+
+    .playlist__actions{
+        @extend .playlist__info;
+        button{
+            background: #460249;
+            border: none;
+        }
+        .favourite{
+            a{
+                background: rgb(81, 81, 81);
+                padding: 3px 7px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .playlist__songs{
+        color: #fff;
+        tr{
+            &.highlight{
+                background: rgb(77, 77, 77);
+            }
+        }
+        .playlist--item{
+            a{
+                color: #fff;
+            }
+            img{
+                max-width: 5%;
+                margin-right: 5px;
+            }
+
+            span{
+                a{
+                    display: block;
+                }
+            }
+        }
+    }
+}

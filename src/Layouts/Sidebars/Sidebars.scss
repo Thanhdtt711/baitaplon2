@@ -1,0 +1,48 @@
+.sidebar {
+  position: relative;
+
+  .sidebar__inner {
+    background: rgba(41, 21, 71, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 16.66666667%;
+
+    .sidebar__inner--logo{
+      text-align: center;
+      img{
+        max-width: 80%;
+        height: auto;
+      }
+    }
+
+    .sidebar__inner--nav{
+      
+      margin-top: 15px;
+      padding: 15px 0;
+      ul{
+        li{
+          a{
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            &.active{
+              background: #efefef84;
+    
+            }
+          }
+        }
+      }
+      
+      .nav-group{
+        color: #fff;
+        padding: 0 15px;
+        margin-top: 15px;
+        border-top: 1px solid #ccc;
+        padding-top: 15px;
+      }
+    }
+  }
+}

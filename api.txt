@@ -1,0 +1,36 @@
+1. Categories 
+- name (string) required
+- banner (string) required
+- created_at (datetime) optional
+- updated_at (datetime) optional
+
+/categories => Lấy tất cả chuyên mục 
+
+- Method: GET
+- Prams: 
+- Authorization
+- Response
+
+/categories/{id} => Lấy chuyên mục theo id 
+
+- Method: GET 
+- Params: 
+- Authorization
+- Response
+
+/categories => Tìm kiếm chuyên mục 
+
+- Method: GET 
+- Params: q={keyword}
+- Authorization
+- Response
+
+/categories => Thêm chuyên mục 
+
+- Method: POST 
+- Params: 
+- Body: Json
+- Authorization
+- Response
+
+=> Base URL: https://api.tech2.vn

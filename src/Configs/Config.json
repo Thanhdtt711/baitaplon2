@@ -1,0 +1,4 @@
+{
+    "SERVER_API": "http://localhost:3004",
+    "TOKEN_NAME": "tech2_auth_token"
+}

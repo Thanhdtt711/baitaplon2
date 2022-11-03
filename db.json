@@ -1,0 +1,291 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Remix",
+      "banner": "https://photo-zmp3.zmdcdn.me/cover/d/3/4/3/d3436727fdc88ee4abe0de9326a7c8da.jpg",
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 2,
+      "name": "Rap",
+      "banner": "https://photo-zmp3.zmdcdn.me/cover/d/3/4/3/d3436727fdc88ee4abe0de9326a7c8da.jpg",
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "singles": [
+    {
+      "id": 1,
+      "name": "Lê Bảo Bình",
+      "avatar": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/6/9/3/4693cff82edb7018039b8f9acc8fa40e.jpg",
+      "description": "Lê Bảo Bình sinh năm 1990, là một ca sĩ, nhạc sĩ được yêu thích hiện nay. Các sản phẩm của anh đều được công chúng đón nhận tích cực, gặt hái nhiều thành tích. Đó là thành quả của nhiều năm kiên trì hoạt động và cống hiến cho âm nhạc. Các ca khúc triệu views của anh có thể kể đến như: Người Phản Bội, Tập Cô Đơn, Bước Qua Đời Nhau, Thích Thì Đến, Bỏ Lỡ Một Người...",
+      "follow": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 2,
+      "name": "Minh Vương",
+      "avatar": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/6/9/3/4693cff82edb7018039b8f9acc8fa40e.jpg",
+      "description": "Lê Bảo Bình sinh năm 1990, là một ca sĩ, nhạc sĩ được yêu thích hiện nay. Các sản phẩm của anh đều được công chúng đón nhận tích cực, gặt hái nhiều thành tích. Đó là thành quả của nhiều năm kiên trì hoạt động và cống hiến cho âm nhạc. Các ca khúc triệu views của anh có thể kể đến như: Người Phản Bội, Tập Cô Đơn, Bước Qua Đời Nhau, Thích Thì Đến, Bỏ Lỡ Một Người...",
+      "follow": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "name": "Bài hát 1",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/6/9/3/4693cff82edb7018039b8f9acc8fa40e.jpg",
+      "duration": "03:50",
+      "source": "/mp3/hongnhan.mp3",
+      "follow": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 2,
+      "name": "Bài hát 2",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/6/9/3/4693cff82edb7018039b8f9acc8fa40e.jpg",
+      "duration": "03:50",
+      "source": "/mp3/jack.mp3",
+      "follow": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 3,
+      "name": "Ai chung tình được mãi",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/6/9/3/4693cff82edb7018039b8f9acc8fa40e.jpg",
+      "duration": "03:50",
+      "source": "/mp3/jack1.mp3",
+      "follow": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "name": "Bolero hay nhất 01",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 2,
+      "name": "Bolero hay nhất 02",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 3,
+      "name": "Bolero hay nhất 03",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 4,
+      "name": "Bolero hay nhất 04",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 5,
+      "name": "Bolero hay nhất 05",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 2,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 6,
+      "name": "Bolero hay nhất 06",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 2,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 7,
+      "name": "Bolero hay nhất 07",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 2,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 8,
+      "name": "Bolero hay nhất 08",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 2,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 9,
+      "name": "Bolero hay nhất 01",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+
+    {
+      "id": 10,
+      "name": "Bolero hay nhất 02",
+      "image": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/1/5/9/2/159226aaebc0421c28d4921c041dc862.jpg",
+      "follow": 0,
+      "categoryId": 1,
+      "singleId": 0,
+      "userId": 0,
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Hoàng An",
+      "email": "hoangan.web@gmail.com",
+      "password": "1234567",
+      "avatar": "",
+      "created_at": "2022-10-08 12:12:12",
+      "updated_at": "2022-10-08 12:12:12"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$CabrKep4Qu0g6RormkiT7OyCw8Un2RanbpHfg69UNPB6WuXJysAvC",
+      "name": "An Test",
+      "id": 2
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$3jHKlvaaC8ig.nAGzHD1FuzXXtdXaY81cCk9lv1oo7EftMyA3FQai",
+      "name": "An Test",
+      "id": 3
+    }
+  ],
+  "song_playlists": [
+    {
+    "id": 1,
+    "playlistId": 1,
+    "songId": 1,
+    "updated_at":"2022-10-08 12:12:12"
+  },
+
+  {
+    "id": 2,
+    "playlistId": 1,
+    "songId": 2,
+    "updated_at":"2022-10-08 12:12:12"
+  },
+
+  {
+    "id": 3,
+    "playlistId": 1,
+    "songId": 3,
+    "updated_at":"2022-10-08 12:12:12"
+  },
+
+  {
+    "id": 4,
+    "playlistId": 2,
+    "songId": 2,
+    "updated_at":"2022-10-08 12:12:12"
+  },
+
+  {
+    "id": 5,
+    "playlistId": 2,
+    "songId": 3,
+    "updated_at":"2022-10-08 12:12:12"
+  }
+],
+  "song_single": [
+    {
+      "id": 1,
+      "singleId": 1,
+      "songId": 1,
+      "created_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 2,
+      "singleId": 2,
+      "songId": 1,
+      "created_at": "2022-10-08 12:12:12"
+    },
+    
+     {
+      "id": 3,
+      "singleId": 1,
+      "songId": 3,
+      "created_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "favouriteSong": [
+    {
+      "id": 1,
+      "songId": 1,
+      "userId": 1,
+      "created_at": "2022-10-08 12:12:12"
+    },
+    {
+      "id": 3,
+      "songId": 2,
+      "userId": 1,
+      "created_at": "2022-10-08 12:12:12"
+    }
+  ],
+  "favouritePlaylists": [],
+
+  "options": {
+    "logo": "https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg",
+    "categories_banner": "https://photo-zmp3.zmdcdn.me/cover/d/3/4/3/d3436727fdc88ee4abe0de9326a7c8da.jpg"
+  }
+}

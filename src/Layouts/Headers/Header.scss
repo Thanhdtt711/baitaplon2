@@ -1,0 +1,109 @@
+.header{
+    background: #2F2739;
+    color: #fff;
+    margin-bottom: 30px;
+    
+    .header__navigation{
+        i{
+            font-size: 1.5rem;
+        }
+    }
+
+    .header__search{
+        .header__search--input{
+            position: relative;
+            &::before{
+                content: "\f002";
+                position: absolute;
+                left: 30px;
+                top: 0;
+                bottom: 0;
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 900;
+                display: flex;
+                align-items: center;
+                font-size: 1.5rem;
+            }
+            input{
+                background: rgba(204, 204, 204, 0.671);
+                border: none;
+                border-radius: 25px;
+                padding: 15px 30px 15px 60px;
+                color: #efefef;
+                &:focus{
+                    box-shadow: none;
+                }
+                &::placeholder{
+                    color: #efefef;
+                }
+            }
+            &.focus{
+                input{
+                    background: #280257;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0; 
+                }
+                .search__suggest{
+                    display: block;
+                }
+            }
+            .search__suggest{
+                background: #280257;
+                padding: 30px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 100%;
+                display: none;
+                p{
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+                }
+                a{
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+
+    .header__profile{
+        position: relative;
+        img{
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header__profile--inner{
+            position: absolute;
+            top: 100;
+            right: 0;
+            min-width: 200px;
+            background: #5d01ce;
+            z-index: 10;
+            padding: 15px;
+            border-radius: 10px;
+            transform: translateY(10px);
+            display: none;
+            &.open{
+                display: block;
+            }
+
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    a{
+                        display: block;
+                        padding: 5px 0;
+                        border-bottom: 1px dotted #efefef;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
